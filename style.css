@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 100vh;
+    margin: 0;
+}
+.calculator-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.num-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    width: 270px;
+}
+.operation-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    height: 60px;
+    width: 80px;
+    font-size: 20px;
+}
+.display {
+    text-align: center;
+    min-height: 40px;
+}
+.calculator {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+}
+p {
+    font-size: 20px;
+}
